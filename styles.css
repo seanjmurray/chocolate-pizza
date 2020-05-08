@@ -1,0 +1,69 @@
+/* font-family: 'Yellowtail', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Patrick Hand', cursive; */
+
+body{
+  margin: 3% 14%; 
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+h1{
+  font-family: Oswald, sans-serif;
+  font-size: 2em;
+  margin-top: 1.5em;
+  margin-bottom: .25em;
+}
+hr{
+  height: .5em;
+  background-image: url('/imgages/hr-img\ copy.png');  
+}
+
+/* NAV BAR */
+.logo{
+margin-right: .5em;
+}
+h2{
+  font-family: Yellowtail, cursive;
+font-size: 2em;
+}
+.right{
+  float: right;
+}
+.logo-text{
+  font-size: .5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0;
+}
+#rss{
+  margin-left: .5em;
+}
+
+/* BODY */
+.grey{
+  color:#777777;
+  font-size: .6em;
+  margin-bottom: 1.5em;
+}
+.print{
+  display: inline;
+}
+
+
+.list{
+  background-image: url('/imgages/list-bg\ copy.png');
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  width: 45%;
+}
+li{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.25em;
+  padding: .25em;
+}
