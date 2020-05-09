@@ -9,6 +9,7 @@ body{
 section{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 1em;
 }
 h1{
@@ -16,10 +17,12 @@ h1{
   font-size: 2em;
   margin-top: 1.5em;
   margin-bottom: .25em;
+  font-weight: 600;
 }
 hr{
-  height: .5em;
+  height: .8em;
   background-image: url('/imgages/hr-img\ copy.png');  
+  border: none;
 }
 
 /* NAV BAR */
@@ -33,10 +36,14 @@ font-size: 2em;
 .right{
   float: right;
 }
+.left {
+  float: left;
+}
 .logo-text{
   font-size: .5em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Oswald;
   letter-spacing: 0;
+  color: #444444;
 }
 #rss{
   margin-left: .5em;
@@ -44,26 +51,83 @@ font-size: 2em;
 
 /* BODY */
 .grey{
-  color:#777777;
+  color:#77777798;
   font-size: .6em;
   margin-bottom: 1.5em;
 }
 .print{
   display: inline;
 }
+.marginBottom {
+  margin-bottom: 1.7em;
 
+}
+
+.bodyText {
+  color: #6e6e6e;
+  line-height: 1.5em;
+}
 
 .list{
   background-image: url('/imgages/list-bg\ copy.png');
   padding: 1.5em;
   display: flex;
   justify-content: space-evenly;
+  box-shadow: 0px 8px 8px -5px rgb(148, 148, 148);
+  border-bottom: 2px groove #99999988;
 }
 ul{
   width: 45%;
 }
 li{
   font-family: 'Patrick Hand', cursive;
+  list-style-type: "";
   font-size: 1.25em;
   padding: .25em;
+  color: #636363;
+}
+h3 {
+  font-size: 1.3em;
+  margin-top: .2em;
+  margin-bottom: .5em;
+}
+
+.bio {
+  color: #4d4d4d;
+  display: inline;
+}
+
+.vanessa {
+  margin-right: 1.2em;
+}
+
+button {
+   background-color: #b64d02;
+   color: #fff;
+   font-size: 1em;
+   font-weight: 200;
+   padding: 0 2.5em;
+   height: 3.4em;
+}
+button:hover {
+transition: ease-in 350ms ;
+color: #b1dbf7;
+background-color: #556279;
+}
+
+.thin {
+  background-color: #cacaca6c;
+  background-image: none;
+  width: 46%;
+  height: 1px;
+}
+
+.center{
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  line-height: 1.5em;
+  padding-bottom: 1em;
 }
